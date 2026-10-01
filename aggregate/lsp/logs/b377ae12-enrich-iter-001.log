@@ -1,0 +1,14 @@
+[2026-10-01T07:43:19Z] === ENRICH ITERATION 1 START | repo=augmentcode/auggie-zed-extension sha=b377ae12 ===
+[2026-10-01T07:43:19Z] [iter=1] PHASE START: enrich repo=augmentcode/auggie-zed-extension sha=b377ae12 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b377ae12-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b377ae129e6bb1f5297b9f0a191dbad03f3ce8ec.nq.gz
+[2026-10-01T07:43:19Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-01T07:43:19Z] [iter=1] AST store loaded triples=4610 load_secs=0 mem_mb=92 MB
+[2026-10-01T07:43:19Z] [iter=1] Step 2: Finding LSP targets mem_mb=92 MB
+[2026-10-01T07:43:19Z] [iter=1] LSP targets found call_sites=54 imports=0 extends=0 implements=0 secs=0
+[2026-10-01T07:43:19Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=92 MB
+[2026-10-01T07:43:19Z] [iter=1] Position index built positions=311 nodes_with_types=371 secs=0 mem_mb=92 MB
+[2026-10-01T07:43:19Z] [iter=1] Step 3: Starting LSP resolution mem_mb=92 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T07:43:19Z] [iter=1] Resolving target type target_type=call_site count=54
+[2026-10-01T07:43:23Z] [iter=1] Target type resolved target_type=call_site resolved=22 errors=7 secs=4 mem_mb=92 MB
+[2026-10-01T07:43:24Z] [iter=1] Step 5: Writing final enrichment file triples=405
+[2026-10-01T07:43:24Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/b377ae129e6bb1f5297b9f0a191dbad03f3ce8ec.nq.gz size_kb=4
+[2026-10-01T07:43:24Z] [iter=1] PHASE END: enrich elapsed_s=6 elapsed_min=0.1 total_triples=405

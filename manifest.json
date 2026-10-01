@@ -1,0 +1,25 @@
+{
+  "manifest_version": "1.0",
+  "org": "augmentcode",
+  "repo": "auggie-zed-extension",
+  "versions": [
+    {
+      "commit": "b377ae129e6bb1f5297b9f0a191dbad03f3ce8ec",
+      "parsed_at": "2026-10-01T07:38:07.353483+00:00",
+      "tag": "main",
+      "filetree": "filetree/b377ae129e6bb1f5297b9f0a191dbad03f3ce8ec.nq.gz",
+      "blobs": [
+        "blob/dd017ec8b6c00a75ae3e7037e8e7da8ecb42051d.nq.gz",
+        "blob/512a7b1fb58bbfd094f3b96c9e582637488eb02a.nq.gz",
+        "blob/16f226ce0e01ef48fb87a6af900bfcd52d7f7637.nq.gz",
+        "blob/022db64195e4076ab41c0d3e06ee62aa10bf1096.nq.gz",
+        "blob/e3e189df75f7231040853ce0ae74e9c64bca064f.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
